@@ -15,7 +15,7 @@ PIPENV_LOCK_ARGS:= --deploy --ignore-pipfile
 PIPENV_VERSION=2018.11.26
 PIP_VERSION=20.1
 
-SHELL:=/bin/bash
+SHELL:=/usr/local/bin/bash
 
 
 # ==================================================================================================
