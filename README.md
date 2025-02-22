@@ -5,13 +5,18 @@ Simple Python script to create and update indexers from Jackett in Radarr, Sonar
 
 ## Usage
 
+- FreeBSD PKG
+```sh
+pkg install py311-pipenv bash gmake
+```
+
 - Install virtual environnement
-```bash
-make pipenv-install
+```sh
+gmake pipenv-install
 ```
 - Run script
-```bash
-make run
+```sh
+gmake run
 ```
 
 ## Configuration
